@@ -55,7 +55,7 @@ ROOT_URLCONF = 'potatodisease.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join('D:/PICTURES/OneDrive/Desktop/Web/potatodisease/detectdisease/templates')],
+        'DIRS': [os.path.join(BASE_DIR,'detectdisease','templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
