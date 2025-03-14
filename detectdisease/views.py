@@ -7,7 +7,7 @@ from django.core.files.storage import default_storage
 from django.conf import settings
 
 # Load the trained model
-MODEL_PATH = r"C:\Users\bandi\plantdisease.keras"
+MODEL_PATH =r"D:\PICTURES\OneDrive\Desktop\Web\potatodisease\plantdisease.keras"
 model = tf.keras.models.load_model(MODEL_PATH)
 
 # Define class labels
